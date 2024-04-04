@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     width: 100vw;
+    box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -13,6 +14,7 @@ body{
     color: #191e3b;
     width: 80%;
     margin: 5px auto;
+     
 }
 
 
@@ -25,41 +27,54 @@ body{
     justify-content: center;
     line-height: 18px;
     list-style: none;
+    
 }
 
 
 .container-menu ul li{
     padding: 0px 12px;
+    font-size: 14px;
 }
-/* .container-menu ul li{
-    padding: 0px 12px;
-    align-items: center;
-    border-radius: 40000px;
-    color: #649df2;
-    display: inline-flex;
-    fill: #649df2;
-    gap: 8px;
-    line-height: 20px;
-    padding: 4px 16px;
-    text-align: center;
-    
-} */
+
+.container-menu ul li button{
+    cursor: pointer;
+    background: #ffffff;
+    color: #000;
+    padding: 10px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+
+}
+
+.container-menu ul li a{
+    text-decoration: none;
+    color: black;
+}
 
 
 .logo{
-    color: #1668e3;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 14px;
-    grid-area: 0px;
-    line-height: 0px;
-    padding: 8px 24px 8px 0px;
-}
-.image{
-    color: #1668e3;
-    display: inline;
-    font-size: 14px;
-    grid-area: auto;
-    line-height: 0px;
+    cursor: pointer;
 }
 
+.main-container{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(/cloning_gym_exercise/images/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+/* 
+.main-container input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin: 20px;
+} */
+
+.main-container h1{
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 50px;
+    font-weight: 500;
+    max-width: 80%;
+}
 

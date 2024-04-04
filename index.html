@@ -9,29 +9,32 @@
 <body>
     <header>
         <div class="nav-container">
-            <div class="logo">
-                <div class="image">
-                    <a href="#"><img src="/cloning_gym_exercise/images/logo.svg" alt=""></a>
-                </div>
-            </div>
+            <img src="/cloning_gym_exercise/images/logo.svg" alt="" class="logo">
             <div class="container-menu">
-                <ul class="left-section">
-                    <li><button>main</button></li>
-                    <li><a href="#">read</a></li>
-                    <li><a href="#">menu</a></li>
-                    <li><a href="#">help</a></li>
-                    <li><a href="#">register</a></li>
-                    <li><a href="#">contact</a></li>
+                <ul>
+                    <li><button class="btn-1">download App
+                        <img src="" alt="">
+                    </button></li>
+                    <li><a href="#">Trip planner</a></li>
+                    <li><a href="#">Register accomodation</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">My journeys</a></li>
+                    <li><a href="#">Register</a></li>
                 </ul>
             </div>
         </div>
     </header>
     <main>
-        <div class="main-container">
-            <img src="/cloning_gym_exercise/images/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.jpeg" alt="">
-            <h1>Findet euren Ort füreinander</h1>
-            <div>
-                <input type="text">
+        <div class="main-container" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <h1>Find your place for each other</h1>
+            <!-- input -->
+            <div style="background-color: white; width: 80%; margin: 10px auto;">
+                <input type="text" id="hols" name="holiday destination" placeholder="holiday destination">
+                <input type="text" id="data" name="data" placeholder="data">
+                <input type="text" id="Guests" name="Guests" placeholder="Guests">
+                <button>Seek</button>
+                  
+
             </div>
         </div>
     </main>
